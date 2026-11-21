@@ -20,9 +20,9 @@ categories = ["utility"]
 tags = ["physics", "items", "drops"]
 
 [[versions]]
-version = "1.0.1"
+version = "1.0.2"
 published = "2026-11-22"
 game = "26.3"
-file = "drop_physics-1.0.1.hmod"
-sha256 = "3ee229965c0aa382f69af4f86456e812debd7fe4dba1eaf8f46403efc47b2c18"
+file = "drop_physics-1.0.2.hmod"
+sha256 = "155e23329b69888d566379a1648a1e3af271d1647dad60c1ffdec7bd7890f9c2"
 changelog = "First version, built for Horizon Nightly 2026-11-21 (8f83e5c). Licensed LGPL-3.0-or-later like Horizon, whose item drawing it adapts."
