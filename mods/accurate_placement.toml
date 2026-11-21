@@ -1,0 +1,34 @@
+id = "accurate_placement"
+kind = "native-mod"
+name = "Accurate Placement"
+summary = "Hold right click with a block and every new spot you look at gets one, however fast you move."
+description = """
+Placing blocks fast is all about timing: vanilla places a block every four ticks while you hold right click, so moving fast skips spots and moving slowly stacks extra blocks. **Accurate Placement** times it for you: hold right click and every *new* spot you look at gets a block at once.
+
+- **A new spot, a block**: bridging, building walls and floors, or sweeping along a row; no spot skipped, however fast you move.
+- **No extra blocks**: staring at one spot places nothing more.
+- **A single click stays a single block**: right after the click it waits as vanilla does, unless you turn the view.
+- **Building backwards**: walking backwards while placing toward yourself places one block per step.
+- Doors, chests, buttons and other blocks you click still work as usual.
+
+It only affects your own placing (client side). Some servers see fast, accurate placing as a cheat: check their rules. This version has no settings screen: remove the mod to turn it off.
+
+An update for the current Horizon API of [Accurate Block Placement](https://github.com/Lutziano888/horizon-accurate-block-placement) by Lutziano888 (MIT), whose registry entry is archived. That is a port of [Accurate Block Placement: Reborn](https://github.com/KadTheHunter/AccurateBlockPlacement-Reborn) (MIT) by Clayborn, Flourick, schwar and KadTheHunter. All the original licence notices are kept.
+
+A native mod: it needs a Horizon Nightly, not the v0.2.97 release. Each version is made for one Nightly, and the launcher builds it for the Horizon your instance plays."""
+authors = ["foudretbr"]
+owners = ["foudretbr"]
+owner_ids = [86318354]
+license = "MIT"
+source = "https://github.com/foudretbr/accurate-placement"
+icon = "icons/accurate_placement.png"
+categories = ["utility", "game-mechanics"]
+tags = ["building", "placement"]
+
+[[versions]]
+version = "1.0.0"
+published = "2026-11-21"
+game = "26.3"
+file = "accurate_placement-1.0.0.hmod"
+sha256 = "6559357dea88a405490c82c27affb5c6d6799b309d81cdbba93004a349542228"
+changelog = "First version, built for Horizon Nightly 2026-11-21 (8f83e5c)."
