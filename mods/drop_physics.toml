@@ -7,7 +7,7 @@ Dropped items get some physics. A thrown or dropped item tumbles while it flies,
 
 It only changes how items are drawn on your screen: nothing changes in the world or for other players.
 
-The approach follows Horizon Physics by tariksabanuz (MIT), itself inspired by PhysicsMod by Haubna; this is a smaller rewrite for the current Horizon API.
+The approach follows [Horizon Physics](https://github.com/tariksabanuz/PhysicsModHorizon) by tariksabanuz (MIT), itself inspired by PhysicsMod by Haubna; this is a smaller rewrite for the current Horizon API.
 
 A native mod: it needs a Horizon Nightly, not the v0.2.97 release. Each version is made for one Nightly, and the launcher builds it for the Horizon your instance plays."""
 authors = ["foudretbr"]
