@@ -1,0 +1,28 @@
+id = "drop_physics"
+kind = "native-mod"
+name = "Drop Physics"
+summary = "Dropped items tumble while they fly and settle on their flattest side."
+description = """
+Dropped items get some physics. A thrown or dropped item tumbles while it flies, and on the ground it settles on its flattest side: flat items lie on their face, blocks rest on a side. No more bobbing or spinning on the ground.
+
+It only changes how items are drawn on your screen: nothing changes in the world or for other players.
+
+The approach follows Horizon Physics by tariksabanuz (MIT), itself inspired by PhysicsMod by Haubna; this is a smaller rewrite for the current Horizon API.
+
+A native mod: it needs a Horizon Nightly, not the v0.2.97 release. Each version is made for one Nightly, and the launcher builds it for the Horizon your instance plays."""
+authors = ["foudretbr"]
+owners = ["foudretbr"]
+owner_ids = [86318354]
+license = "MIT"
+source = "https://github.com/foudretbr/drop-physics"
+icon = "icons/drop_physics.png"
+categories = ["utility"]
+tags = ["physics", "items", "drops"]
+
+[[versions]]
+version = "1.0.0"
+published = "2026-11-21"
+game = "26.3"
+file = "drop_physics-1.0.0.hmod"
+sha256 = "7c7a250fa8bf78c1680a214067feeb18f6f0b4b7b42ab3f40c925019b5bfa1eb"
+changelog = "First version, built for Horizon Nightly 2026-11-20 (0a875da)."
