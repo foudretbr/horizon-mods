@@ -24,6 +24,7 @@ version = "1.0.0"
 published = "2026-11-21"
 game = "26.3"
 file = "drop_physics-1.0.0.hmod"
-sha256 = "7bc037e31f3b1e84fdd6ff8b0bdd3c5b3a18c762aefdf9c87538e3d8fff76b06"
-changelog = "First version, built for Horizon Nightly 2026-11-20 (0a875da)."
+sha256 = "2e8917aaf82ebf097b07733ad333926c9165afeb58abbfca9edb3fb74fa181ec"
+changelog = "First version, built for Horizon Nightly 2026-11-21 (8f83e5c)."
+
 
