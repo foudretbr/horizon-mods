@@ -11,7 +11,7 @@ Placing blocks fast is all about timing: vanilla places a block every four ticks
 - **Building backwards**: walking backwards while placing toward yourself places one block per step.
 - Doors, chests, buttons and other blocks you click still work as usual.
 
-It only affects your own placing (client side). Some servers see fast, accurate placing as a cheat: check their rules. This version has no settings screen: remove the mod to turn it off.
+It only affects your own placing (client side). It can place up to 4 blocks per tick, far above vanilla's rate, so server anticheats may flag or kick you for it: check the server's rules before using it. Every placement still goes through the game's own use path, so the server checks reach, hit point, build height and border. This version has no settings screen: remove the mod to turn it off.
 
 An update for the current Horizon API of [Accurate Block Placement](https://github.com/Lutziano888/horizon-accurate-block-placement) by Lutziano888 (MIT), whose registry entry is archived. That is a port of [Accurate Block Placement: Reborn](https://github.com/KadTheHunter/AccurateBlockPlacement-Reborn) (MIT) by Clayborn, Flourick, schwar and KadTheHunter. All the original licence notices are kept.
 
