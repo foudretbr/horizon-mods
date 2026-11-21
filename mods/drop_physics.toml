@@ -7,24 +7,22 @@ Dropped items get some physics. A thrown or dropped item tumbles while it flies,
 
 It only changes how items are drawn on your screen: nothing changes in the world or for other players.
 
-The approach follows [Horizon Physics](https://github.com/tariksabanuz/PhysicsModHorizon) by tariksabanuz (MIT), itself inspired by PhysicsMod by Haubna; this is a smaller rewrite for the current Horizon API.
+The approach follows [Horizon Physics](https://github.com/tariksabanuz/PhysicsModHorizon) by tariksabanuz (MIT), itself inspired by PhysicsMod by Haubna; this is a smaller rewrite for the current Horizon API. It adapts Horizon's own dropped-item drawing code, so it is under Horizon's licence (LGPL-3.0-or-later) and carries its notices.
 
 A native mod: it needs a Horizon Nightly, not the v0.2.97 release. Each version is made for one Nightly, and the launcher builds it for the Horizon your instance plays."""
 authors = ["foudretbr"]
 owners = ["foudretbr"]
 owner_ids = [86318354]
-license = "MIT"
+license = "LGPL-3.0-or-later"
 source = "https://github.com/foudretbr/drop-physics"
 icon = "icons/drop_physics.png"
 categories = ["utility"]
 tags = ["physics", "items", "drops"]
 
 [[versions]]
-version = "1.0.0"
-published = "2026-11-21"
+version = "1.0.1"
+published = "2026-11-22"
 game = "26.3"
-file = "drop_physics-1.0.0.hmod"
-sha256 = "2e8917aaf82ebf097b07733ad333926c9165afeb58abbfca9edb3fb74fa181ec"
-changelog = "First version, built for Horizon Nightly 2026-11-21 (8f83e5c)."
-
-
+file = "drop_physics-1.0.1.hmod"
+sha256 = "3ee229965c0aa382f69af4f86456e812debd7fe4dba1eaf8f46403efc47b2c18"
+changelog = "First version, built for Horizon Nightly 2026-11-21 (8f83e5c). Licensed LGPL-3.0-or-later like Horizon, whose item drawing it adapts."
