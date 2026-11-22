@@ -11,7 +11,7 @@ Placing blocks fast is all about timing: vanilla places a block every four ticks
 - **Building backwards**: walking backwards while placing toward yourself places one block per step.
 - Doors, chests, buttons and other blocks you click still work as usual.
 
-It only affects your own placing (client side). It can place up to 4 blocks per tick, far above vanilla's rate, so server anticheats may flag or kick you for it: check the server's rules before using it. Every placement still goes through the game's own use path, so the server checks reach, hit point, build height and border. This version has no settings screen: remove the mod to turn it off.
+It works **only in your own worlds** (singleplayer and worlds you host). On a remote server it does nothing: the game places blocks at its normal rate, so it cannot trip a server's anticheat. This version has no settings screen: remove the mod to turn it off.
 
 An update for the current Horizon API of [Accurate Block Placement](https://github.com/Lutziano888/horizon-accurate-block-placement) by Lutziano888 (MIT), whose registry entry is archived. That is a port of [Accurate Block Placement: Reborn](https://github.com/KadTheHunter/AccurateBlockPlacement-Reborn) (MIT) by Clayborn, Flourick, schwar and KadTheHunter. All the original licence notices are kept.
 
@@ -26,9 +26,9 @@ categories = ["utility", "game-mechanics"]
 tags = ["building", "placement"]
 
 [[versions]]
-version = "1.0.0"
-published = "2026-11-21"
+version = "1.0.1"
+published = "2026-11-22"
 game = "26.3"
-file = "accurate_placement-1.0.0.hmod"
-sha256 = "6559357dea88a405490c82c27affb5c6d6799b309d81cdbba93004a349542228"
-changelog = "First version, built for Horizon Nightly 2026-11-21 (8f83e5c)."
+file = "accurate_placement-1.0.1.hmod"
+sha256 = "8fb72e1e507c2b92f53f9e1aa5d52a1527db163944639605bd522719e3e73f40"
+changelog = "First version, built for Horizon Nightly 2026-11-21 (8f83e5c). Fast placing works only in your own worlds; on remote servers the game places at its normal rate."
